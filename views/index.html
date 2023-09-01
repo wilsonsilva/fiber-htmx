@@ -1,0 +1,19 @@
+<html lang="en">
+    <head>
+        <title>Go Fiber + HTMX</title>
+        <script src="https://unpkg.com/htmx.org@1.9.5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+    </head>
+    <body>
+        <div class="container mx-auto">
+            <input
+                class="rounded mx-auto w-lg p-4" type="text" name="ticker"
+                hx-get="/search"
+                hx-trigger="keyup changed delay:500ms"
+                hx-target="#search-results"
+            />
+            <div id="search-results"></div>
+            <div id="news"></div>
+        </div>
+    </body>
+</html>
