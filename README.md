@@ -6,6 +6,7 @@ and a list of news related to the ticker.
 ## Requirements
 
 - Golang `1.21+`
+- An API key from [Polygon.io](https://polygon.io/dashboard/api-keys)
 
 ## Installation
 
