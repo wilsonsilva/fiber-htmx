@@ -19,6 +19,17 @@ go get
 
 ## Development
 
+Run the following commands to build the Tailwind CSS classes:
+
+```sh
+npm install
+npm run dev
+```
+
+There are two options to start the web server:
+- without hot reloading
+- with hot reloading
+
 ### Without hot reloading
 
 ```sh
