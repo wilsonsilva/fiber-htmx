@@ -3,6 +3,10 @@
 A proof of concept HTMX app with a Go Fiber backend. Displays a list of tickers from polygon.io
 and a list of news related to the ticker.
 
+<p align="center">
+  <img src=".github/assets/home-page.png?raw=true" alt="Home page" width="25%" height="auto"/>
+</p>
+
 ## Requirements
 
 - Golang `1.21+`
