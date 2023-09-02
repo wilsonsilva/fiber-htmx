@@ -1,10 +1,10 @@
-<h2 class="my-5 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">Results</h2>
+<h2 class="ticker-results-header">Results</h2>
 <divider/>
-<ul class="m0 p0">
+<ul>
     {{range .Results}}
         <li>
             <button
-                class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded mb-2"
+                class="ticker-result-button"
                 hx-get="/news/{{.Ticker}}"
                 hx-trigger="click"
                 hx-target="#news">

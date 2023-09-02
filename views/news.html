@@ -1,10 +1,10 @@
-<h3 class="my-5 text-3xl font-extrabold leading-none tracking-tight md:text-4xl lg:text-5xl">News for <mark class="px-2 text-white bg-blue-600 rounded dark:bg-blue-500">{{.Ticker}}</mark></h3>
-<div class="grid md:grid-cols-2 gap-4">
+<h3 class="news-heading">News for <mark class="news-heading-mark">{{.Ticker}}</mark></h3>
+<div class="news-grid">
     {{range .News}}
-        <div class="flex md:flex-row flex-col">
-            <img class="md:w-1/3 w-full" src="{{.ImageURL}}" alt="News 1">
-            <div class="md:w-2/3 md:pl-4">
-                <h2 class="text-xl md:text-2xl lg:text-3xl font-extrabold my-5 leading-none tracking-tight">{{.Title}} <span class="text-xl underline underline-offset-3 decoration-4 decoration-blue-400 dark:decoration-blue-600">{{.Author}}</span></h2>
+        <div class="news-column">
+            <img class="news-image" src="{{.ImageURL}}">
+            <div class="news-content">
+                <h2 class="news-title">{{.Title}} <span class="news-author">{{.Author}}</span></h2>
                 <p>{{.Description}}</p>
             </div>
         </div>

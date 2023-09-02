@@ -1,0 +1,31 @@
+.news-heading {
+    @apply my-5 text-3xl font-extrabold leading-none tracking-tight md:text-4xl lg:text-5xl
+}
+
+.news-heading-mark {
+    @apply px-2 text-white bg-blue-600 rounded dark:bg-blue-500
+}
+
+.news-grid {
+    @apply grid md:grid-cols-2 gap-4
+}
+
+.news-column {
+    @apply flex md:flex-row flex-col
+}
+
+.news-image {
+    @apply md:w-1/3 w-full
+}
+
+.news-content {
+    @apply md:w-2/3 md:pl-4
+}
+
+.news-title {
+    @apply text-xl md:text-2xl lg:text-3xl font-extrabold my-5 leading-none tracking-tight
+}
+
+.news-author {
+    @apply text-xl underline underline-offset-4 decoration-4 decoration-blue-400 dark:decoration-blue-600
+}

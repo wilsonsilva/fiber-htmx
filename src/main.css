@@ -1,3 +1,11 @@
+@import "./home.css";
+@import "./news.css";
+@import "./results.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-white dark:bg-gray-800 text-gray-900 dark:text-white m-5
+}

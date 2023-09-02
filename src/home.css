@@ -1,0 +1,39 @@
+.hero {
+    @apply bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]
+}
+
+.hero-inner {
+    @apply py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative
+}
+
+.hero-title {
+    @apply mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white
+}
+
+.hero-description {
+    @apply mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200
+}
+
+#theme-toggle {
+    @apply text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5
+}
+
+.theme-toggle-icon {
+    @apply w-5 h-5
+}
+
+#ticker-search {
+    @apply block w-full p-4 pl-10 text-sm border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+}
+
+.ticker-search-label {
+    @apply mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white
+}
+
+.ticker-search-icon-container {
+    @apply absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none
+}
+
+.ticker-search-icon {
+    @apply w-4 h-4 text-gray-500 dark:text-gray-400
+}
