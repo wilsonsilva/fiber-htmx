@@ -3,14 +3,6 @@
         <title>Go Fiber + HTMX</title>
         <link rel="stylesheet" href="/main.css" />
         <script src="https://unpkg.com/htmx.org@1.9.5"></script>
-        <script>
-            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-            if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                document.documentElement.classList.add('dark');
-            } else {
-                document.documentElement.classList.remove('dark')
-            }
-        </script>
     </head>
 
     <body class="bg-white dark:bg-gray-800 text-gray-900 dark:text-white m-5">
