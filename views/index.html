@@ -2,12 +2,14 @@
     <head>
         <title>Go Fiber + HTMX</title>
         <script src="https://unpkg.com/htmx.org@1.9.5"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
         <div class="container mx-auto">
             <input
-                class="rounded mx-auto w-lg p-4" type="text" name="ticker"
+                class="block lg w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 mt-5"
+                type="text"
+                name="ticker"
                 hx-get="/search"
                 hx-trigger="keyup changed delay:500ms"
                 hx-target="#search-results"
