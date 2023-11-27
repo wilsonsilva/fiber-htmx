@@ -59,21 +59,25 @@ air
 ```
   __    _   ___
  / /\  | | | |_)
-/_/--\ |_| |_| \_ 1.45.0, built with Go 1.21.0
+/_/--\ |_| |_| \_ v1.49.0, built with Go go1.21.4
 
 watching .
+watching bin
+!exclude node_modules
+watching public
+watching src
 !exclude tmp
 watching views
 building...
 running...
 
  ┌───────────────────────────────────────────────────┐
- │                   Fiber v2.49.0                   │
+ │                   Fiber v2.51.0                   │
  │               http://127.0.0.1:3000               │
  │       (bound on host 0.0.0.0 and port 3000)       │
  │                                                   │
- │ Handlers ............. 6  Processes ........... 1 │
- │ Prefork ....... Disabled  PID ............. 96157 │
+ │ Handlers ............. 7  Processes ........... 1 │
+ │ Prefork ....... Disabled  PID ............. 76782 │
  └───────────────────────────────────────────────────┘
 ```
 
