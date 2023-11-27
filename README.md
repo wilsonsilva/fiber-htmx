@@ -30,6 +30,13 @@ npm install
 npm run dev
 ```
 
+Or if you prefer to use [bun](https://bun.sh/):
+
+```sh
+bun install
+bun run dev
+```
+
 There are two options to start the web server:
 - without hot reloading
 - with hot reloading
